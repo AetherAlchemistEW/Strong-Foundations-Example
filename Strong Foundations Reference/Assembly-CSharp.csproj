@@ -74,6 +74,8 @@
     <Compile Include="Assets\Scripts\ScriptableObjects\SaveLoadObject.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\UISkinObject.cs" />
     <Compile Include="Assets\Scripts\SuperFakeDemoScript.cs" />
+    <Compile Include="Assets\Scripts\Week2SuperFakeExample.cs" />
+    <Compile Include="Assets\SearchForHealth.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Documents/Unity Projects/StrongFoundations/Strong-Foundations-Example/Strong Foundations Reference/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
