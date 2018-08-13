@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Stats))]
 public class BaseEnemy : MonoBehaviour
 {
     //Waypoints
     public List<Vector3> waypoints;
     public int selectedWaypointIndex;
+    private Stats stats;
 
     //State Machine
 
@@ -15,9 +17,17 @@ public class BaseEnemy : MonoBehaviour
     {
 		
 	}
-	
-	// Update is called once per frame
-	void Update ()
+
+    public void Reset(Vector3 resetPosition)
+    {
+        //reset position
+        transform.position = resetPosition;
+        //reset stats;
+        
+    }
+
+    // Update is called once per frame
+    void Update ()
     {
 		
 	}
@@ -37,9 +47,13 @@ public class BaseEnemy : MonoBehaviour
             }
 
             Gizmos.DrawWireSphere(waypoints[i], 0.5f);
-            if(i > 0 && i < waypoints.Count-1)
+            if(i >= 0 && i < waypoints.Count-1)
             {
                 Gizmos.DrawLine(waypoints[i], waypoints[i + 1]);
+            }
+            else if(i == waypoints.Count-1)
+            {
+                Gizmos.DrawLine(waypoints[i], waypoints[0]);
             }
         }
     }

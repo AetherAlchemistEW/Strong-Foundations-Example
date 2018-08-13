@@ -59,6 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Editor\DataPackerDrawer.cs" />
     <Compile Include="Assets\Editor\EnemyWaypointHandles.cs" />
     <Compile Include="Assets\Editor\UISkinInspector.cs" />
     <Reference Include="UnityEditor.StandardEvents">
@@ -241,6 +242,12 @@
     <Reference Include="Unity.Locator">
       <HintPath>D:/Applications/2018.1.0f2/Editor/Data/Managed/Unity.Locator.dll</HintPath>
     </Reference>
+    <Reference Include="Vuforia.UnityExtensions.Editor">
+      <HintPath>D:/Applications/2018.1.0f2/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>D:/Applications/2018.1.0f2/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>D:/Applications/2018.1.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -297,12 +304,6 @@
     </Reference>
     <Reference Include="UnityEditor.VR">
       <HintPath>D:/Applications/2018.1.0f2/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
-    </Reference>
-    <Reference Include="Vuforia.UnityExtensions.Editor">
-      <HintPath>D:/Applications/2018.1.0f2/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Vuforia.UnityExtensions">
-      <HintPath>D:/Applications/2018.1.0f2/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Graphs">
       <HintPath>D:/Applications/2018.1.0f2/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>

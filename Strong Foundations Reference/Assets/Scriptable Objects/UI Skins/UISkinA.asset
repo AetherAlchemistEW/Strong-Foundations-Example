@@ -12,5 +12,10 @@ MonoBehaviour:
   m_Name: UISkinA
   m_EditorClassIdentifier: 
   backingColour: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
-  highHealthColour: {r: 0.15304625, g: 1, b: 0, a: 1}
+  highHealthColour: {r: 0.55503094, g: 1, b: 0, a: 1}
   lowHealthColour: {r: 1, g: 0, b: 0, a: 1}
+  healthFont:
+    font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    isBold: 0
+    isItalic: 0
+    point: 20

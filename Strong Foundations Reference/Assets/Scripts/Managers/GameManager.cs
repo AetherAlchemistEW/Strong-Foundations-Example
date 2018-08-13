@@ -12,10 +12,6 @@ public class GameManager : MonoBehaviour
     //This is how we bypass needing a reference to a specific instance
     public static GameManager instance;
 
-    //TODO: Save Load
-
-    //TODO: Events and Delegates
-
 	// Use this for initialization
 	void Awake ()
     {
@@ -39,9 +35,13 @@ public class GameManager : MonoBehaviour
         //Make sure you deliberately destroy it if you do something like go back to the main menu though
         DontDestroyOnLoad(this.gameObject);
 	}
-	
-	// Update is called once per frame
-	void Update ()
+
+    //TODO: Save Load
+
+    //TODO: Events and Delegates
+
+    // Update is called once per frame
+    void Update ()
     {
 		
 	}

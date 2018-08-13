@@ -59,6 +59,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ColliderDisplayGizmo.cs" />
+    <Compile Include="Assets\Scripts\FakeWeek4Examples.cs" />
     <Compile Include="Assets\Scripts\Gameplay Elements\BaseEnemy.cs" />
     <Compile Include="Assets\Scripts\Gameplay Elements\EnemyVariantOne.cs" />
     <Compile Include="Assets\Scripts\Gameplay Elements\EnemyVariantTwo.cs" />
@@ -66,15 +68,19 @@
     <Compile Include="Assets\Scripts\Gameplay Elements\IFlamable.cs" />
     <Compile Include="Assets\Scripts\Gameplay Elements\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Gameplay Elements\Stats.cs" />
+    <Compile Include="Assets\Scripts\Managers\CharacterGenerator.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Managers\ObjectPool.cs" />
     <Compile Include="Assets\Scripts\Managers\SaveLoadSystem.cs" />
-    <Compile Include="Assets\Scripts\Managers\StaticLibrary.cs" />
     <Compile Include="Assets\Scripts\Managers\UIController.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\SaveLoadObject.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\UISkinObject.cs" />
     <Compile Include="Assets\Scripts\SuperFakeDemoScript.cs" />
     <Compile Include="Assets\Scripts\Week2SuperFakeExample.cs" />
+    <Compile Include="Assets\Scripts\Week5BinaryFormatter.cs" />
+    <Compile Include="Assets\Scripts\Week5PlayerPrefs.cs" />
+    <Compile Include="Assets\Scripts\Week6FakeNonEditorEditor.cs" />
+    <Compile Include="Assets\Scripts\Week6Property.cs" />
     <Compile Include="Assets\SearchForHealth.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Documents/Unity Projects/StrongFoundations/Strong-Foundations-Example/Strong Foundations Reference/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
@@ -256,6 +262,9 @@
     <Reference Include="Unity.Locator">
       <HintPath>D:/Applications/2018.1.0f2/Editor/Data/Managed/Unity.Locator.dll</HintPath>
     </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>D:/Applications/2018.1.0f2/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>D:/Applications/2018.1.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -276,9 +285,6 @@
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>D:/Applications/2018.1.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="Vuforia.UnityExtensions">
-      <HintPath>D:/Applications/2018.1.0f2/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/Ed/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>

@@ -21,7 +21,7 @@ public class UISkinObject : ScriptableObject //We inherit from the scriptable ob
     public Color lowHealthColour;
 
     //This is too complicated to draw normally, we need a custom inspector
-    [SerializeField]
+    [SerializeField][HideInInspector]
     public FontStyle healthFont;
 }
 
